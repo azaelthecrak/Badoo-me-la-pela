@@ -1,0 +1,19 @@
+.Flogin{
+  float: right;
+  padding-right: 20%;
+}
+input[type=text]{
+  width: 150%;
+  padding: 12px 20px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+input[type=submit]{
+  
+}
+#eslogan{
+  font-size: 60px;
+}
+.separador{
+  height: 300px;
+}

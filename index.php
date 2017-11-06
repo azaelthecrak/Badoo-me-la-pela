@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>Nose</title>
   </head>
@@ -31,18 +31,21 @@
   </div>
 </nav>
 <div class="inicio">
-  <p>Frase chida</p>
-    <div class="F-login">
+    <div class="Flogin">
       <form class="Login" action="index.html" method="post">
         <h1>Registrate</h1>
-          <input type="text" name="" value="" placeholder="correo">
-          <input type="text" name="" value="" placeholder="contraseña">
-          <input type="text" name="" value="" placeholder="nombre de usuario">
-          <input type="submit" name="" value="">
+          <input type="text" name="" value="" placeholder="correo"><br>
+          <input type="text" name="" value="" placeholder="contraseña"><br>
+          <input type="text" name="" value="" placeholder="nombre de usuario"><br>
+          <input type="submit" name="" value="Registrarse">
       </form>
     </div>
+  <p id="eslogan">Frase chida</p>
 </div>
-<div class="inicio-footer">
+<div class="separador">
+
+</div>
+<div class="inicioFooter">
   <p>Aqui va lo que ofrecemos XD</p>
 </div>
   </body>
