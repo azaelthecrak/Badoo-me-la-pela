@@ -3,50 +3,29 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/materialize.min.css">
     <title>Nose</title>
   </head>
   <body>
-<nav class="navbar navbar-default" role="navigation">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toogle" data-toogle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-    </button>
-  </div>
-  <div class="navbar-collapse collapse">
-    <ul class="nav navbar-nav collapse">
-      <li><a href="index.php">Logo</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-center">
-      <li><a href="#">Cosa 1</a></li>
-      <li><a href="#">Cosa 2</a></li>
-      <li><a href="#">Cosa 3</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Usuario</a></li>
-      <li><a href="#">Cerrar sesion</a></li>
-    </ul>
-  </div>
-</nav>
-<div class="inicio">
-    <div class="Flogin">
-      <form class="Login" action="index.html" method="post">
-        <h1>Registrate</h1>
-          <input type="text" name="" value="" placeholder="correo"><br>
-          <input type="text" name="" value="" placeholder="contraseña"><br>
-          <input type="text" name="" value="" placeholder="nombre de usuario"><br>
-          <input type="submit" name="" value="Registrarse">
-      </form>
+    <nav>
+    <div class="nav-wrapper">
+      <a href="index.php" class="brand-logo center">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="">Buscar usuario</a></li>
+        <li class="active"><a href="">Cosa2</a></li>
+      </ul>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="active"><a href="">Usuario</a></li>
+        <li><a href="">Cerrar sesion</a></li>
+      </ul>
     </div>
-  <p id="eslogan">Frase chida</p>
-</div>
-<div class="separador">
-
-</div>
-<div class="inicioFooter">
-  <p>Aqui va lo que ofrecemos XD</p>
-</div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col 2"></div>
+    </div>
+  </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
   </body>
 </html>
