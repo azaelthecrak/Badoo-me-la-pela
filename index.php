@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/materialize.min.css">
+    <!-- Material icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Nose</title>
   </head>
   <body>
@@ -20,11 +22,28 @@
       </ul>
     </div>
   </nav>
-  <div class="container">
     <div class="row">
-      <div class="col 2"></div>
+      <div class="col s1">Frase Chida</div>
+      <div class="col s6 offset-s6">
+        <form class="col s12" action="index.html" method="post">
+          <div class="input-field col s6">
+            <input type="text" id="usuario" class="validate">
+              <label for="usuario">Nombre De Usuario</label>
+          </div>
+          <div class="input-field col s6">
+            <input type="text" id="pass" class="validate">
+              <label for="pass">Contraseña</label>
+          </div>
+          <div class="input-field col s7">
+            <input type="text" id="mail">
+              <label for="mail">Correo Electronico</label>
+          </div>
+          <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+          </button>
+        </form>
+      </div>
     </div>
-  </div>
     <script src="js/jquery.js"></script>
     <script src="js/materialize.min.js"></script>
   </body>
