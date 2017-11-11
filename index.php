@@ -38,7 +38,7 @@
             <input type="text" id="mail">
               <label for="mail">Correo Electronico</label>
           </div>
-          <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+          <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
             <i class="material-icons right">send</i>
           </button>
         </form>
@@ -46,5 +46,13 @@
     </div>
     <script src="js/jquery.js"></script>
     <script src="js/materialize.min.js"></script>
+    <div class="parallax-container">
+      <div class="parallax"><img src="css/fondo.jpg"></div>
+      <script>
+        $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+      </script>
+    </div>
   </body>
 </html>
